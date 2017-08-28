@@ -4,11 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "prestart": "wintersmith build",
+    "build": "wintersmith build",
+    "postinstall":"wintersmith build"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "static-server": "^2.0.5"
+    "static-server": "^2.0.5",
+    "wintersmith": "^2.4.1",
+    "wintersmith-autoprefixer-less": "0.0.1",
+    "wintersmith-handlebars": "0.0.6",
+    "wintersmith-less": "^1.0.0"
   }
 }
