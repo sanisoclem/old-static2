@@ -2,5 +2,30 @@
 extends layout
 
 block content
-  article.article
-    section.content!= page.html
+  .home
+    div
+      .title-container
+        .title-1
+          | Jerahmeel
+        .title-2
+          | Cosinas
+        .title-head
+      ul.tb
+        li
+          a.hint--bottom(href='mailto:me@jerahmeelcosinas.net', data-hint='Mail')
+            i.fa.fa-envelope
+        li
+          a.hint--bottom(href='//instagram.com/_u/busstop7448', data-hint='Instagram')
+            i.fa.fa-instagram
+        li
+          a.hint--bottom(href='//github.com/sanisoclem', data-hint='GitHub')
+            i.fa.fa-github
+        li
+          a.hint--bottom(href='//soundcloud.com/sanisoclem', data-hint='Soundcloud')
+            i.fa.fa-soundcloud
+        li
+          a.hint--bottom(href='tel:+65-9026-7517', data-hint='Telephone')
+            i.fa.fa-whatsapp
+        li
+          a.hint--bottom(href="javascript:alert('work in progress');", data-hint='Places')
+            i.fa.fa-map

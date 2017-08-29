@@ -1,5 +1,18 @@
 $default-bg:#ccc !default;
+$clr-primary-bg:#eee;
+$clr-primary:#000;
+$clr-accent: #32a0e5;
+$clr-secondary:#333;
 
 
+$breakpoints: (
+    'sm':  ( min-width:  767px ),
+    'md': ( min-width:  992px ),
+    'lg':  ( min-width: 1200px ),
+    'sm-only':  ( max-width:  767px )
+  ) !default;
 
-@import "layout/home";
+@import "mixins/responsive";
+@import "layout/general";
+@import "pages/home";
+@import "components/hints";

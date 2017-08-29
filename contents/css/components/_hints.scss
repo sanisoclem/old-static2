@@ -1,0 +1,38 @@
+[data-hint] 
+{
+    position: relative;
+    display: inline-block;
+    
+    &:after {
+        transition: 0.3s ease;
+        transition-delay: 0ms;
+        transform: translateX(-50%);
+        
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 1000000;
+        pointer-events: none;
+        
+        top: 100%;
+        width:auto;
+        left:50%;
+        text-align: center;
+    }
+    
+    &:hover {
+        &:after {
+            visibility: visible;
+            opacity: 1;
+            transition-delay: 100ms;
+        }
+    }
+    
+    &:after {
+        content: attr(data-hint);
+        padding: 8px 10px;
+        font-size: 12px;
+        line-height: 12px;
+        white-space: nowrap;
+    }
+}
