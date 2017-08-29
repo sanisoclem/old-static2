@@ -1,12 +1,9 @@
 {
   "plugins": [
     "./node_modules/wintersmith-handlebars/wintersmith-handlebars.coffee",
-    "./node_modules/wintersmith-less/plugin.coffee"
+    "wintersmith-libsass"
   ],
   "require": {
   },
-  "markdown": {
-    "smartLists": true,
-    "smartypants": true
-  }
+  "ignore": ["**/_*.scss"]
 }
