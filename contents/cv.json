@@ -1,0 +1,106 @@
+{
+    "firstName":"Jerahmeel",
+    "lastName": "Cosinas",
+    "email":"me@jerahmeelcosinas.net",
+    "phone":"+65 9026 7517",
+    "tagline":"To provide sensible, useable and elegant solutions through continuous learning and innovation.",
+    "social":[
+        {
+            "type":"instagram",
+            "url":"https://instragram.com/u/busstop7448"
+        },
+        {
+            "type":"github",
+            "url":"https://github.com/sanisoclem2"
+        },
+        {
+            "type":"soundcloud",
+            "url":"//soundcloud.com/sanisoclem"
+        },
+        {
+            "type":"tel",
+            "url":"tel:+65-9026-7517"
+        },
+        {
+            "type":"email",
+            "url":"mailto:jerahmeelcosinas.net"
+        }
+    ],
+    "skills":[
+        {
+            "name":"C#",
+            "description":"",
+            "selfAssessment":1
+        },
+        {
+            "name":"javascript",
+            "description":"",
+            "selfAssessment":1
+        },
+        {
+            "name":"sass",
+            "description":"",
+            "selfAssessment":1
+        },
+        {
+            "name":"less",
+            "description":"",
+            "selfAssessment":1
+        },
+        {
+            "name":"php",
+            "description":"",
+            "selfAssessment":1
+        },
+        {
+            "name":"angularjs",
+            "description":"",
+            "selfAssessment":1
+        },
+        {
+            "name":"bootstrap",
+            "description":"",
+            "selfAssessment":1
+        },
+        {
+            "name":"drupal",
+            "description":"",
+            "selfAssessment":1
+        }
+    ],
+    "experience":[
+        {
+            "name":"Credit Agricole CIB",
+            "agency":"Optimum Solutions",
+            "startDate":"2011-06-11",
+            "endDate":null,
+            "location":"Singapore",
+            "title":"Application Consultant",
+            "description":""
+        },
+        {
+            "name":"Deutsche Knowledge Services",
+            "startDate":"2008-09-01",
+            "endDate":"2010-09-15",
+            "location":"BGC Taguig, Philippines",
+            "title":"Softare Developer",
+            "description":""
+        },
+        {
+            "name":"Citigroup Business Process Solutions Pte Ltd",
+            "startDate":"2006-12-04",
+            "endDate":"2008-06-15",
+            "location":"PBCom Tower Makati Philippines",
+            "title":"MIS Officer",
+            "description":""
+        },
+        {
+            "name":"ClientLogic Philippines (now Sitel)",
+            "startDate":"2005-06-01",
+            "endDate":"2006-12-01",
+            "location":"Wysum Corporate Plaza Ortigas Pasig Philippines",
+            "title":"Application Consultant",
+            "description":""
+        }
+    ]
+}
