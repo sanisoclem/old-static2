@@ -16,4 +16,19 @@
     background-color:$clr-bg1;
     color:$clr-text1;
   }
+  ul.social {
+    display: flex;
+    padding:0;
+    margin:0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+
+    > li {
+      flex: 0 0;
+      width:$social-icon-dim;
+      height:$social-icon-dim;
+    }
+  }
 }
