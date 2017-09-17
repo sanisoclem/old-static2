@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "watch \"npm run build\" ./contents ./templates",
     "start": "node index.js",
     "prestart": "wintersmith build",
     "build": "wintersmith build",
@@ -13,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "static-server": "^2.0.5",
+    "watch": "^1.0.2",
     "wintersmith": "^2.4.1",
     "wintersmith-handlebars": "0.0.6",
     "wintersmith-libsass": "^0.4.1",
