@@ -7,7 +7,7 @@
     "social":[
         {
             "type":"instagram",
-            "url":"https://instragram.com/u/busstop7448"
+            "url":"//instagram.com/_u/busstop7448"
         },
         {
             "type":"github",
@@ -101,6 +101,20 @@
             "location":"Wysum Corporate Plaza Ortigas Pasig Philippines",
             "title":"Application Consultant",
             "description":""
+        }
+    ],
+    "projects": [
+        {
+            "name":"Photo, Audio and Video Repository site",
+            "company":"Credit Agricole CIB",
+            "technologies": ["C#","Bootstrap","AngularJS","MS SQL"],
+            "description":"This application serves user-uploaded media (photo, audio, video, pdf etc). It provides approval workflows, simple statistics, secure downloads, diagnostics for encoding/file jobs and flexible security settings. The interface is mostly mobile friendly except for some elements due to project constraints (mainly silverlight).",
+            "responsibilities":[
+                "Technical Design",
+                "Development",
+                "Bug Fixing",
+                "Reaserch"
+            ]
         }
     ]
 }
