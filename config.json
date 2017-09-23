@@ -1,6 +1,6 @@
 {
   "plugins": [
-    "./node_modules/wintersmith-handlebars/wintersmith-handlebars.coffee",
+    "wintersmith-handlebars/wintersmith-handlebars.coffee",
     "wintersmith-libsass"
   ],
   "require": {

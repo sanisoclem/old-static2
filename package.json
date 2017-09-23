@@ -8,7 +8,8 @@
     "start": "node index.js",
     "prestart": "wintersmith build",
     "build": "wintersmith build",
-    "postinstall": "wintersmith build"
+    "postinstall": "wintersmith build",
+    "clean":"rimraf build"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +20,8 @@
     "wintersmith-handlebars": "0.0.6",
     "wintersmith-libsass": "^0.4.1",
     "wintersmith-sassify": "^1.0.2"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
   }
 }
