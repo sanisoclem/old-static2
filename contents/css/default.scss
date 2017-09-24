@@ -1,7 +1,12 @@
-$clr-bg1: #32a0e5 !default;
-$clr-bg2:#ccc !default;
-$clr-text1:#fff !default;
+$clr-bg1: #fff !default;
+$clr-bg2:#000!default;
+$clr-text1:#000 !default;
+$clr-text2: #fff !default;
+
+$clr-accent1:#32a0e5;
+
 $social-icon-dim: 200px;
+$default-gutter-size:20px;
 
 
 $breakpoints: (
@@ -11,7 +16,16 @@ $breakpoints: (
     'sm-only':  ( max-width:  767px )
   ) !default;
 
+  $rainbow: (
+    0:  ( #fff ),
+    1: ( #32a0e5),
+    2:  ( #ea2e49),
+    3:  ( #f6f792 )
+  ) !default;
+
+@import "base/typography";
 @import "mixins/responsive";
+@import "mixins/fibonacci";
 @import "layout/general";
 @import "components/animation";
 

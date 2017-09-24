@@ -1,4 +1,12 @@
-$default-bg:#666;
+$clr-bg1: #333 !default;
+$clr-bg2:#000!default;
+$clr-text1:#000 !default;
+$clr-text2: #fff !default;
+
+$clr-accent1:#32a0e5;
+
+$social-icon-dim: 200px;
+$default-gutter-size:20px;
 
 
 @import "default";

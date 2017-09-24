@@ -3,16 +3,14 @@ extends layout
 
 block content
   .jc-home
-    .region-top
-      .title=contents["cv.json"].metadata.firstName + " " + contents["cv.json"].metadata.lastName
-      .bg
-          - for (var i = 0; i < 500; ++i) {
-            div(class="bg-block bg-block#{i}")
-          - } 
-    .region-bottom
-      ul.social
-        each link, i in contents["cv.json"].metadata.social
-          li
-            a(href=link.url)
-              i(class="fa fa-link")
-              span=link.type  
+    .title=contents["cv.json"].metadata.firstName + " " + contents["cv.json"].metadata.lastName
+    .bg
+      - for (var i = 1; i <= 10; ++i) {
+        div(class="bg-block bg-block#{i}")
+      - }
+    ul.social
+      each link, i in contents["cv.json"].metadata.social
+        li
+          a(href=link.url)
+            i(class="fa fa-link")
+            span=link.type  

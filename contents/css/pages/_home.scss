@@ -2,36 +2,73 @@
   position:relative;
   margin:0 auto;
   height:100%;
-  min-height:500px;
   width:100%;
-  // display:flex;
-  // align-items: center;
-  // justify-content:center;
+  overflow: hidden;
+  mix-blend-mode: exclusion;
   
 
-  .region-top {
+  .title {
+    z-index: 100;
+    padding: $default-gutter-size *2;
+    position: absolute;
+    font-size:2em;
+    max-width: 500px;
     text-align: center;
-    vertical-align: bottom;
-    width:100%;
-    height: 50%;
-    background-color:$clr-bg1;
-    color:$clr-text1;
+    background-color:$clr-bg2;
+    color:$clr-text2;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+  }
 
-    .bg {
-      position: absolute;;
+  .bg {
+    
+
+    .bg-block {
+      position: absolute;
       top:0;
-      left:0;
-      right:0;
-      bottom:0;
-      animation: rotate;
+      left:100%;
+      height:100%;
+      width:100%;
+      animation: dumbo;
+      
+      //animation-timing-function: steps(1,end);
+      animation-iteration-count: infinite;
+      transform-origin: center center;
+      animation-fill-mode:  both;
+      background-color: #ea2e49;
+      mix-blend-mode:color-dodge;
+    }
 
 
-      @for $i from 1 through 500 {
-        .bg-block-#{$i}
-          width: 60px + $i
+    @for $i from 1 through 10 {
+      .bg-block#{$i} {
+        height: 30 + random(50) + vh;
+        width: 30 + random(50) + vw;
+        animation-delay: random(10) +s;
+        animation-duration: (70 + random(10)) + s;
+        background-color: inspect(map-get($rainbow, random(2)));
+        
+        @if ($i % 4 == 2) {
+          left: -100%;
+          top: 0;
+        }
+        @if ($i % 4 == 2) {
+          left: 0;
+          top: -100%;
+        }
+        @if ($i % 4 == 1) {
+          left: 0%;
+          top: 100%;
+        }
+        @if ($i % 2 != 0) {
+            animation-direction: alternate-reverse;
+        } 
       }
     }
   }
+  
   ul.social {
     display: flex;
     padding:0;

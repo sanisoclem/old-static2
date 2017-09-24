@@ -1,0 +1,17 @@
+@keyframes rotate {
+    from {}
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dumbo {
+      0% { transform: scale(1,1) translate(100vw,0); }
+    12% {transform: scale(1,1) translate(-100vw,-100vh);}
+    25% {transform: scale(1.5,1.5) translate(0,100vh);}
+    37% {transform: scale(1.2,1.2) translate(100vw,-100vh);}
+    50% {transform: scale(1.5,1.5) translate(-100vw,0);}
+    62% {transform: scale(1.5,1.5) translate(100vw,100vh);}
+    75% {transform: scale(1.5,1.5) translate(0,-100vh);}
+    87% {transform: scale(1.5,1.5) translate(-100vw,100vh);}
+}
